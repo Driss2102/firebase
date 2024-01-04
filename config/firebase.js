@@ -6,7 +6,7 @@ const firebaseConfig = {
   apiKey: process.env.apiKey,
   authDomain: process.env.authDomain,
   projectId: process.env.projectId,
-  storageBucket: process.env.storageBucket,
+  storageBucket: "ecommerce-b7197.appspot.com",
   messagingSenderId: process.env.messagingSenderId,
   appId: process.env.appId,
 };
@@ -24,4 +24,4 @@ const uploadFileToStorage = async (file, destination) => {
   return downloadURL;
 };
 
-module.exports = { storage, uploadFileToStorage };
+module.exports = {  uploadFileToStorage };

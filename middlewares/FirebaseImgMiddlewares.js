@@ -1,6 +1,6 @@
 const multer = require("multer");
 const { format } = require("date-fns");
-const { storage, uploadFileToStorage } = require("../config/firebase");
+
 
 const upload = multer({ storage: multer.memoryStorage() });
 
