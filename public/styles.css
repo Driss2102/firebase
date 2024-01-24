@@ -1,11 +1,13 @@
-styles.css
-
 body {
   margin: 0;
   padding: 0;
   font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
   min-height: 100vh;
+  background-image: url("./16406266_rm373-503a.jpg");
+  background-size: cover; /* Ajustez selon vos préférences */
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .welcome-container {
@@ -19,8 +21,8 @@ body {
 }
 
 h1 {
-  color: #333;
-  font-size: 2.5em;
+  color: #ffffff;
+  font-size: 3.5em;
   margin-bottom: 20px;
   opacity: 0;
   transform: translateY(20px);
@@ -28,7 +30,7 @@ h1 {
 }
 
 p {
-  color: #666;
+  color: #ffffff;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
@@ -39,4 +41,3 @@ p {
   transform: translateY(20px);
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
-
